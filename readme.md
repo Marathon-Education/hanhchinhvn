@@ -15,8 +15,8 @@ Phân cấp hành chính Việt Nam export từ nguồn Tổng Cục Thống Kê
 - `quan_huyen.json`: thông tin về các quận, huyện, thị xã, thành phố trực thuộc tỉnh
 - `xa_phuong.json`: thông tin về các xã, phường, thị trấn
 - `tree.json`: cấu trúc hành chính dạng cây thư mục
-- **quan_huyen/**: thư mục chứa các file json là thông tin các quận, huyện, thị xã, thành phố trực thuộc của một tỉnh. Tên file là mã của tỉnh. Dùng để truy vấn ở client. Ví dụ: `quan_huyen/92.json` là thông tin các quận, huyện,... của tỉnh có mã **92**.
-- **xa_phuong/**: thư mục chứa các file json là thông tin các xã, phường, thị trấn của một quận, huyện,.... Tên file là mã của quận, huyện, thị xã hoặc thành phố trực thuộc tỉnh. Dùng để truy vấn ở client. Ví dụ: `xa_phuong/92.json` là thông tin các xã, phường,... của quận/huyện có mã **92**.
+- **quan-huyen/**: thư mục chứa các file json là thông tin các quận, huyện, thị xã, thành phố trực thuộc của một tỉnh. Tên file là mã của tỉnh. Dùng để truy vấn ở client. Ví dụ: `quan_huyen/92.json` là thông tin các quận, huyện,... của tỉnh có mã **92**.
+- **xa-phuong/**: thư mục chứa các file json là thông tin các xã, phường, thị trấn của một quận, huyện,.... Tên file là mã của quận, huyện, thị xã hoặc thành phố trực thuộc tỉnh. Dùng để truy vấn ở client. Ví dụ: `xa_phuong/92.json` là thông tin các xã, phường,... của quận/huyện có mã **92**.
 
 ### Nguồn dữ liệu
 
